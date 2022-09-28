@@ -1,0 +1,26 @@
+USE DATABASE projet_trafic_aerien
+
+CREATE TABLE airlines (
+name VARCHAR(25),
+score INT
+);
+
+CREATE TABLE airports (
+name VARCHAR(25),
+score INT
+);
+
+CREATE TABLE flights (
+name VARCHAR(25),
+score INT
+);
+
+CREATE TABLE planes (
+name VARCHAR(25),
+score INT
+);
+
+CREATE TABLE weather (
+name VARCHAR(25),
+score INT
+);

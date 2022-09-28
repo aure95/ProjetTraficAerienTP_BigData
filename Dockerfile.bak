@@ -1,0 +1,9 @@
+FROM mysql:latest
+
+ENV MYSQL_ROOT_PASSWORD root
+ENV MYSQL_DATABASE projet_trafic_aerien
+
+COPY ./sql-scripts/ /docker-entrypoint-initdb.d/
+
+COPY ./data ./
+EXPOSE 3306
